@@ -55,9 +55,6 @@ export async function toggleEve(enable: boolean) {
   if (!res.ok) {
     throw new Error(`API error: ${res.status}`);
   }
-  else{
-    console.log("HELLO")
-  }
 
   return res.json();
 }
